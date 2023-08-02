@@ -20,5 +20,7 @@ from soft.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('soft/', include('soft.urls')), 
+    path('', include('soft.urls')), 
 ]
+
+handler404 = pageNotFound
