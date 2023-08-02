@@ -4,6 +4,6 @@ from .views import *
 
 
 urlpatterns = [
-    path('', index), # http://127.0.0.1:8000/soft/
+    path('', index, name='home'), # http://127.0.0.1:8000/
     path('cat/', categories),
 ]
