@@ -2,10 +2,18 @@
 Project structure:
 ```
 .
-├── compose.yaml
-├── app
-    ├── Dockerfile
-    ├── requirements.txt
-    └── manage.py
+├── prksoft
+    ├── prksoft
+        ├── 
+        ├── 
+    ├── soft
+        ├── 
+        ├── 
+    ├── manage.py
+    ├── tests
+    ├── .gitignore
+    ├── poetry.lock
+    ├── pyproject.toml
+    ├── README.md
 ```
 
